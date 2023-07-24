@@ -1,6 +1,9 @@
 package create;
 
-public class Factory {
+/**
+ * 팩토리패턴
+ */
+public class Factory01 {
 
     public static void main(String args[]) {
         CarFactory bmwFactory = new BmwCarFactory();
